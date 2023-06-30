@@ -1,0 +1,30 @@
+body{ background-color: gray;}
+
+	P{
+		color: white;
+		font-size: xx-large;
+		font-family: "Time New Roman";
+		font-style: italic;
+		font-weight: bold;
+		
+	}
+	
+	a:visited{
+		color: white;
+	}
+	
+	a:hover{
+		color: yellow;
+		font-style: italic;
+		
+	}
+	
+	a:active{
+		color: green;
+		
+	}
+	
+	a:link{
+		color: pink
+	
+	}

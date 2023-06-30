@@ -1,0 +1,96 @@
+body{
+ font: 80% Verdana, sans-serif;
+}
+    
+#container{
+ margin: 10px auto;
+ width: 650px;
+ border: 1px solid gray;
+}
+
+#header {
+ height: 100px;
+ width: 100%;
+ background: black;
+}
+#header h1 {
+ font: 200% Verdana, sans-serif;
+ color: green;
+ position:relative;
+ bottom:20px;
+ display:inline;
+}
+#header img {
+ height: 100px;
+ z-index:-1;
+}
+
+#mainnav ul{
+ padding: 6;
+ margin: 0;
+ font: 100% Verdana, sans-serif;
+ background: #8074CB;
+ border-top: 2px solid #4D4197; 
+ border-bottom: 2px solid #4D4197;
+}
+#mainnav li {
+ list-style: none;
+ margin: 0px 6px 0px 6px;
+ padding: 5px 3px 5px 3px;
+ display: inline;
+}
+#mainnav li a {
+ margin:0;
+ padding:0;
+ text-decoration:none;
+ color: #fff;
+}
+#mainnav li a:visited {
+ color: #fff;
+}
+#mainnav li a:hover {
+ background: #fff;
+ color: #000;
+}
+#mainnav li a:active {
+ background: #ccc;
+ color: #000;
+}
+
+#menu {
+ float: right;
+ width: 180px;
+ border-left: 1px solid green;
+ margin-top:20px;
+}
+
+#menu ul {
+ margin: 1em 0;
+ padding: 6px;
+}
+
+#menu ul li {
+ margin: 0 0 1em;
+ padding: 0;
+ list-style-type: none;
+}
+
+#contents {
+ float:left;
+ width:440px;
+ background:white;
+ padding:10px;
+}
+
+#contents h1, h2, h3, h4, h5, h6 {
+ color:#4D4197;
+}
+
+#footer {
+ background: #4D4197;
+ clear:both;
+ color: white;
+ height: 40px;
+ text-align: right;
+ padding:3px 10px 3px 0;
+}

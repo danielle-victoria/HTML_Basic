@@ -1,0 +1,31 @@
+#container{
+	background-color: red;
+	font-size: 20px;
+	margin: 10px auto;
+	width: 650px;
+	background: #6E934A;
+}
+#header{
+	background: #8074CB;
+	height: 50px;
+}
+#mainnav{
+		height: 30px;
+
+}
+#menu{
+	color: white;
+	background: #DBBD4B; 
+	width:200px;
+	float:right;
+	height: 500px;
+}
+#contents{
+	background-color: yellow;
+	font-size: 40px;
+	height:500px;
+}
+#footer{
+	background: #4D4197; 
+	height: 30px;
+}

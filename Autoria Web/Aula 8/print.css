@@ -1,0 +1,47 @@
+body{
+ font: 80% Verdana, sans-serif;
+ color:black;
+ background:white;
+ margin: 2em;
+}
+
+#container{
+ margin: 10px auto;
+ width: 650px;
+ border: 1px solid gray;
+}
+
+#header {
+ height: 100px;
+ width: 100%;
+ border-bottom: 2px solid gray;
+}
+#header h1 {
+ font: 200% Verdana, sans-serif;
+ padding:20px 0 0 20px;
+}
+#header img {
+ display:none;
+}
+
+#mainnavul{
+ display:none;
+}
+
+#menu {
+ display:none;
+}
+
+#contents {
+ float:left;
+ padding:10px;
+}
+
+#footer {
+ clear:both;
+ height: 40px;
+ text-align: right;
+ padding:3px 10px 3px 0;
+ border-top: 1px solid gray;
+
+}

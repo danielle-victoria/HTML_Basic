@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exemplo de posicionamento</title>
+<style type="text/css">
+p {
+padding: 20px 20px20px20px;
+background-color:#cc9;
+}
+p.fixed {
+position:fixed;
+right:10px;
+width:250px;
+}
+p.static {
+position:static;
+width:250px;
+}
+p.absolute{
+position:absolute;
+right:30px;
+width:60%;
+z-index:1;
+}
+p.relative{
+position:relative;
+width:60%;
+}
+</style>
+</head>
+<body>
+<h1>Exemplos de posicionamento de elementos</h1>
+<p class="fixed">Parágrafo 1 – Este parágrafo está estilizado com "position:fixed" e  "right:10px". Isso faz com que ele seja posicionado a 10px da direita e não role na página. </p>
+<p class="static">Parágrafo 2 – Este parágrafo está estilizado com "position:static". Essa propriedade não precisa ser escrita porque todos os elementos são estáticos por default. Ele está aparecendo ao lado do parágrafo fixed porque fixed permite a sobreposição de elementos e ignora o fluxo descrito no (X)HTML.</p>
+<p class="absolute">Parágrafo 3 – Este parágrafo está estilizado com "position:absolute;" e "right:20px;". Esse método faz com que o parágrafo posterior sobreponha-o. </p>
+<p class="relative">Parágrafo 4 – Este parágrafo está estilizado com "position:relative;". Esse método não ignora o fluxo dos elementos, mas permite a sobreposição. Assim, como o parágrafo anterior usa o método de posição absolute, este aparece por cima do parágrafo 
+3.</p>
+</body>
+</html>
